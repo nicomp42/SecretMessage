@@ -1,3 +1,8 @@
+/*********************************************************
+ * This class is serializable and also encodes/decodes strings
+ * Bill Nicholson
+ * nicholdw@ucmail.u.edu
+ */
 package secretMessage;
 
 import java.io.FileInputStream;

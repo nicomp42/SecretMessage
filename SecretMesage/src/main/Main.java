@@ -1,3 +1,8 @@
+/*********************************************************
+ * This class manipulates the SecretMessage class
+ * Bill Nicholson
+ * nicholdw@ucmail.u.edu
+ */
 package main;
 
 import secretMessage.SecretMessage;
@@ -12,7 +17,7 @@ public class Main {
 		SecretMessage s = new SecretMessage();
 		s.setMessage(test);
 
-		SecretMessage.writeSecretMessage(s, "SecretMessage.dat");
+//		SecretMessage.writeSecretMessage(s, "SecretMessage.dat");
 		
 		SecretMessage s1 = SecretMessage.readSecretMessage("SecretMessage.dat");
 		System.out.println(SecretMessage.decode(s1.getMessage()));
